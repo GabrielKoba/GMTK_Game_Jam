@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Data/Sound Banks/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637298605276562732
+  lastModified: 637300162839859530
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 688
+    Value: 732
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -34,14 +34,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -5032936784331921940}
-  - {fileID: 1934420827447841172}
-  EditorEvents: []
+  - {fileID: 5748334962663813767}
+  EditorEvents:
+  - {fileID: 5702303063909423113}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 1934420827447841172}
+  - {fileID: 5748334962663813767}
   StringsBanks:
   - {fileID: -5032936784331921940}
-  stringsBankWriteTime: 637298605276562732
+  stringsBankWriteTime: 637300162839859530
   cacheVersion: 3
 --- !u!114 &1934420827447841172
 MonoBehaviour:
@@ -58,6 +59,47 @@ MonoBehaviour:
   Path: Assets/Data/Sound Banks/Desktop/Master.bank
   SubDir: 
   lastModified: 637298605276532719
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5702303063909423113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sacred
+  m_EditorClassIdentifier: 
+  Path: event:/Sacred
+  guid: c814fbcf4138a043a3513e676953acbf
+  Banks:
+  - {fileID: 5748334962663813767}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 184384
+--- !u!114 &5748334962663813767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound Banks/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637300162839829264
   LoadResult: 0
   FileSizes: []
   Exists: 1

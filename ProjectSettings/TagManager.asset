@@ -38,9 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Dancefloor
+    uniqueID: 2793859763
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 59312039
+    locked: 0
+  - name: UI
+    uniqueID: 1634261807
     locked: 0
