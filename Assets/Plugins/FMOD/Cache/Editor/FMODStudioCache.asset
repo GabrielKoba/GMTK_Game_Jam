@@ -14,12 +14,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Data/Sound Banks/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637300162839859530
+  lastModified: 637301122596250296
   LoadResult: 0
   FileSizes:
   - Name: 
     Value: 732
   Exists: 1
+--- !u!114 &-2085623798251997604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound Banks/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637301122596220265
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1951086770810937850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Sound Banks/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637300187889928143
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34,15 +70,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -5032936784331921940}
-  - {fileID: 5748334962663813767}
+  - {fileID: -2085623798251997604}
   EditorEvents:
   - {fileID: 5702303063909423113}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5748334962663813767}
+  - {fileID: -2085623798251997604}
   StringsBanks:
   - {fileID: -5032936784331921940}
-  stringsBankWriteTime: 637300162839859530
+  stringsBankWriteTime: 637301122596250296
   cacheVersion: 3
 --- !u!114 &1934420827447841172
 MonoBehaviour:
@@ -77,10 +113,10 @@ MonoBehaviour:
   Path: event:/Sacred
   guid: c814fbcf4138a043a3513e676953acbf
   Banks:
-  - {fileID: 5748334962663813767}
+  - {fileID: -2085623798251997604}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
@@ -102,4 +138,4 @@ MonoBehaviour:
   lastModified: 637300162839829264
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0

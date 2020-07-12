@@ -4,9 +4,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Slider))]
 public class ProgressBarBehaviour : MonoBehaviour
 {
-	[Tooltip("How long does it take for this slider to fill, in seconds")]
-	public float FillTime = 1.0f;
-
+	[SerializeField] TroubleManager troubleManager;
+	public float elapsedTime;
 	private Slider _slider;
 	void Start ()
 	{
@@ -16,11 +15,14 @@ public class ProgressBarBehaviour : MonoBehaviour
 
 	public void Reset()
 	{
-		_slider.minValue = Time.time;
-		_slider.maxValue = Time.time + FillTime;
+		_slider.minValue = 0;
+		_slider.maxValue = troubleManager.timeBeforeNightEnd;
 	}
 	void Update ()
 	{
-		_slider.value = Time.time;
+		if (troubleManager.gameStarted){
+			elapsedTime += Time.deltaTime;
+			_slider.value = elapsedTime;
+		}
 	}
 }

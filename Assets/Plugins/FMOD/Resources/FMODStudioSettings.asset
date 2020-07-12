@@ -16,7 +16,8 @@ MonoBehaviour:
   HasSourceProject: 0
   HasPlatforms: 0
   sourceProjectPath: 
-  sourceBankPath: Assets/Data/Sound Banks/Desktop
+  sourceBankPath: G:\My Stuff\Projects\Game Development\Unity Projects\GMTK_Game_Jam\Assets\Data\Sound
+    Banks\Desktop
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -78,4 +79,4 @@ MonoBehaviour:
   - Master
   Banks: []
   BanksToLoad: []
-  LiveUpdatePort: 9264
+  LiveUpdatePort: 9263

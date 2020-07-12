@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Machine
+  - HeartFill
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Level
   - 
   - 
   - 
@@ -40,6 +43,18 @@ TagManager:
   m_SortingLayers:
   - name: Dancefloor
     uniqueID: 2793859763
+    locked: 0
+  - name: Level
+    uniqueID: 2406796025
+    locked: 0
+  - name: Player Legs
+    uniqueID: 3519528701
+    locked: 0
+  - name: Enemies
+    uniqueID: 2475893703
+    locked: 0
+  - name: Player Top
+    uniqueID: 274847623
     locked: 0
   - name: Default
     uniqueID: 0
